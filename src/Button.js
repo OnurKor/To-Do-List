@@ -5,7 +5,7 @@ const Button = ({size, color, func, content, textColor, disable}) => {
   console.log(`${size}`)
   console.log(`${textColor}`)
   return (
-<button className={`${size === "sm" && "w-[150px]"} ${size === "md" && "w-[300px]"} ${size === "lg" && "w-full"} border bg-${color}-500 text-${textColor}-300`} onClick={func} disabled={disable}>{content}</button>
+<button className={`${size === "sm" && "w-[150px]"} ${size === "md" && "w-[295px]"} ${size === "lg" && "w-full"} border bg-${color}-500 text-${textColor}-300`} onClick={func} disabled={disable}>{content}</button>
   ) 
 }
 
