@@ -35,6 +35,7 @@ const deleteClick = (index) => {
                     <div className=''>
                         <button className='mx-2' onClick={() => deleteClick(index)}>Sil</button>
                         <button className='mx-2'>Düzenle</button>
+                        <button className='mx-2'>Düzenle</button>
                     </div> 
                 </div>
             )
